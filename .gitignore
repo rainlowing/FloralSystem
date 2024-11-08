@@ -1,0 +1,49 @@
+<<<<<<<<<<<<<<<<<<<<<<<< CodeGeeX Inline Diff>>>>>>>>>>>>>>>>>>>>>>>>
++# .gitignore file to avoid uploading unnecessary files to git repository
++
++# Ignore all log files
++*.log
++
++# Ignore all .pyc files (compiled python files)
++*.pyc
++
++# Ignore all .pyo files (optimized compiled python files)
++*.pyo
++
++# Ignore all __pycache__ directories
++__pycache__/
++
++# Ignore all .env files (environment variables)
++.env
++
++# Ignore all .DS_Store files (macOS folder attributes)
++.DS_Store
++
++# Ignore all .idea directories (IDE settings)
++.idea/
++
++# Ignore all .vscode directories (VS Code settings)
++.vscode/
++
++# Ignore all node_modules directories (Node.js modules)
++node_modules/
++
++# Ignore all build directories (compiled files)
++build/
++
++# Ignore all dist directories (distribution files)
++dist/
++
++# Ignore all *.so files (shared objects)
++*.so
++
++# Ignore all *.dylib files (dynamic libraries)
++*.dylib
++
++# Ignore all *.dll files (dynamic link libraries)
++*.dll
++
++# Ignore all *.exe files (executables)
++*.exe
+
+<<<<<<<<<<<<<<<<<<<<<<<< CodeGeeX Inline Diff>>>>>>>>>>>>>>>>>>>>>>>>

@@ -387,6 +387,12 @@
 			null
 		],
 		[
+			"D:/QtProjects/FloralSystem/loginwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_loginwindow.cpp",
+			null
+		],
+		[
 			"D:/QtProjects/FloralSystem/logmanager.h",
 			"MU",
 			"EWIEGA46WW/moc_logmanager.cpp",
@@ -560,6 +566,7 @@
 		[ "D:/QtProjects/FloralSystem/appinit.cpp", "MU", null ],
 		[ "D:/QtProjects/FloralSystem/databasemanager.cpp", "MU", null ],
 		[ "D:/QtProjects/FloralSystem/global.cpp", "MU", null ],
+		[ "D:/QtProjects/FloralSystem/loginwindow.cpp", "MU", null ],
 		[ "D:/QtProjects/FloralSystem/logmanager.cpp", "MU", null ],
 		[ "D:/QtProjects/FloralSystem/main.cpp", "MU", null ],
 		[ "D:/QtProjects/FloralSystem/widget.cpp", "MU", null ]

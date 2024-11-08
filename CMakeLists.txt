@@ -26,6 +26,8 @@ set(PROJECT_SOURCES
         databasemanager.cpp
         global.h
         global.cpp
+        loginwindow.h
+        loginwindow.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

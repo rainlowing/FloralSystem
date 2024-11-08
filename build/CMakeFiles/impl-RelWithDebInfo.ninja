@@ -99,6 +99,14 @@ build CMakeFiles/FloralSystem.dir/RelWithDebInfo/global.cpp.obj: CXX_COMPILER__F
   OBJECT_DIR = CMakeFiles\FloralSystem.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\FloralSystem.dir\RelWithDebInfo
 
+build CMakeFiles/FloralSystem.dir/RelWithDebInfo/loginwindow.cpp.obj: CXX_COMPILER__FloralSystem_unscanned_RelWithDebInfo D$:/QtProjects/FloralSystem/loginwindow.cpp || cmake_object_order_depends_target_FloralSystem_RELWITHDEBINFO
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles\FloralSystem.dir\RelWithDebInfo\loginwindow.cpp.obj.d
+  FLAGS = -O2 -g -DNDEBUG -std=gnu++17
+  INCLUDES = -ID:/QtProjects/FloralSystem/build/FloralSystem_autogen/include_RelWithDebInfo -isystem E:/Qt/6.8.0/mingw_64/include/QtCore -isystem E:/Qt/6.8.0/mingw_64/include -isystem E:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem E:/Qt/6.8.0/mingw_64/include/QtGui -isystem E:/Qt/6.8.0/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\FloralSystem.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\FloralSystem.dir\RelWithDebInfo
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FloralSystem
@@ -107,7 +115,7 @@ build CMakeFiles/FloralSystem.dir/RelWithDebInfo/global.cpp.obj: CXX_COMPILER__F
 #############################################
 # Link the executable RelWithDebInfo\FloralSystem.exe
 
-build RelWithDebInfo/FloralSystem.exe: CXX_EXECUTABLE_LINKER__FloralSystem_RelWithDebInfo CMakeFiles/FloralSystem.dir/RelWithDebInfo/FloralSystem_autogen/mocs_compilation_RelWithDebInfo.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/widget.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/appinit.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/logmanager.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/databasemanager.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/global.cpp.obj | E$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a E$:/Qt/6.8.0/mingw_64/lib/libQt6Sql.a E$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a E$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a E$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || FloralSystem_autogen$:RelWithDebInfo
+build RelWithDebInfo/FloralSystem.exe: CXX_EXECUTABLE_LINKER__FloralSystem_RelWithDebInfo CMakeFiles/FloralSystem.dir/RelWithDebInfo/FloralSystem_autogen/mocs_compilation_RelWithDebInfo.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/widget.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/appinit.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/logmanager.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/databasemanager.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/global.cpp.obj CMakeFiles/FloralSystem.dir/RelWithDebInfo/loginwindow.cpp.obj | E$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a E$:/Qt/6.8.0/mingw_64/lib/libQt6Sql.a E$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a E$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a E$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || FloralSystem_autogen$:RelWithDebInfo
   FLAGS = -O2 -g -DNDEBUG
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = E:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  E:/Qt/6.8.0/mingw_64/lib/libQt6Sql.a  E:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  E:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  E:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
